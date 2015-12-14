@@ -1,0 +1,8 @@
+{
+    "name": "rstiekema/web-push-encryption",
+    "autoload": {
+        "psr-4" : {
+            "RStiekema\\WebPushEncryption" : "src"
+        }
+    }
+}
