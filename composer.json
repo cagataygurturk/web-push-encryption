@@ -1,8 +1,22 @@
 {
     "name": "rstiekema/web-push-encryption",
-    "autoload": {
-        "psr-4" : {
-            "RStiekema\\WebPushEncryption" : "src"
+    "version": "dev-master",
+    "description": "PHP web push encrypted messages library",
+    "type": "library",
+    "homepage": "https://github.com/rstiekema/web-push-encryption",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rutger Stiekema",
+            "role": "Author"
         }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RStiekema\\WebPushEncryption\\": "src"
+        }
+    },
+    "require": {
+        "mdanter/ecc": "^0.3.0"
     }
 }
